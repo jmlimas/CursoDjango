@@ -16,17 +16,8 @@ DATABASES = {
 		'PORT' : '5432',
 	}
 }
-
- 
-
-# Honor the 'X-Forwarded-Proto' header for request.is_secure()
-SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
-
-# Static asset configuration
  
 STATIC_URL = '/static/'
-
- 
  
 STATICFILES_DIRS = [BASE_DIR.child('static')]
 

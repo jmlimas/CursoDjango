@@ -1,8 +1,8 @@
+__author__ = 'soporte'
 from unipath import Path
-BASE_DIR =  Path(__file__).ancestor(3)
-
 import dj_database_url
 
+BASE_DIR =  Path(__file__).ancestor(3)
 SECRET_KEY = 'v_^vemp5f2)z#+v73=bfo(z^7!g1&pa*-4@2_xwsjv5)2*tgj0'
 
 DJANGO_APPS = (

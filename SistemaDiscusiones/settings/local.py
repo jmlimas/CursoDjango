@@ -1,3 +1,4 @@
+__author__ = 'soporte'
 from .base import *
 
 DEBUG = True
